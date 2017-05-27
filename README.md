@@ -8,6 +8,20 @@ This docker image contains [supervisord](https:/supervisord.org/).
 
 None.
 
+## Commonly Used Commands
+
+### Reload supervisord configuration
+
+```bash
+pkill --signal=SIGHUP supervisord
+```
+
+### Reopen supervisord logs
+
+```bash
+pkill --signal=SIGUSR2 supervisord
+```
+
 ## Standard Configuration
 
 ### Container Layout
