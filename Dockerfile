@@ -1,5 +1,5 @@
-FROM crashvb/base:latest
-MAINTAINER Richard Davis <crashvb@gmail.com>
+FROM crashvb/base:ubuntu
+LABEL maintainer="Richard Davis <crashvb@gmail.com>"
 
 # Install packages, download files ...
 RUN docker-apt supervisor
