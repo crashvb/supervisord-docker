@@ -1,0 +1,7 @@
+#!/bin/bash
+
+set -e
+
+log "Checking if $(basename $0) is healthy ..."
+supervisorctl status 2>&1 | grep --quiet "requires authentication"
+
