@@ -2,7 +2,7 @@
 
 ## Overview
 
-This docker image contains [supervisord](https:/supervisord.org/).
+This docker image contains [supervisord](https://supervisord.org/).
 
 ## Entrypoint Scripts
 
