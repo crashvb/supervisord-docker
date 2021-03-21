@@ -1,4 +1,4 @@
-FROM crashvb/base:18.04-202002210438
+FROM crashvb/base:20.04-202007030444
 LABEL maintainer="Richard Davis <crashvb@gmail.com>"
 
 # Install packages, download files ...
