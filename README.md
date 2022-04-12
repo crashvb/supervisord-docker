@@ -1,5 +1,10 @@
 # supervisord-docker
 
+[![version)](https://img.shields.io/docker/v/crashvb/supervisord/latest)](https://hub.docker.com/repository/docker/crashvb/supervisord)
+[![image size](https://img.shields.io/docker/image-size/crashvb/supervisord/latest)](https://hub.docker.com/repository/docker/crashvb/supervisord)
+[![linting](https://img.shields.io/badge/linting-hadolint-yellow)](https://github.com/hadolint/hadolint)
+[![license](https://img.shields.io/github/license/crashvb/supervisord-docker.svg)](https://github.com/crashvb/supervisord-docker/blob/master/LICENSE.md)
+
 ## Overview
 
 This docker image contains [supervisord](https://supervisord.org/).
