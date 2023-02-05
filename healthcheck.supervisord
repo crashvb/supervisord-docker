@@ -3,5 +3,5 @@
 set -e -o pipefail
 
 log "Checking if $(basename $0) is healthy ..."
-supervisorctl status 2>&1 | grep --quiet "requires authentication"
+[[ $(pgrep --count --full /usr/bin/supervisord) -gt 0 ]]
 
