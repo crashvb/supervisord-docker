@@ -1,10 +1,10 @@
-FROM crashvb/base:22.04-202302172016@sha256:aa45348250be126f4b4e3d4f3de6d8314159426d517fb1e0a7ecdf32905fdf26
+FROM crashvb/base:22.04-202302172125@sha256:502350d90a33aea5fe94f0c43ff1d17a1f581d75abba3addcdc7dfa735e8c870
 ARG org_opencontainers_image_created=undefined
 ARG org_opencontainers_image_revision=undefined
 LABEL \
 	org.opencontainers.image.authors="Richard Davis <crashvb@gmail.com>" \
-	org.opencontainers.image.base.digest="sha256:aa45348250be126f4b4e3d4f3de6d8314159426d517fb1e0a7ecdf32905fdf26" \
-	org.opencontainers.image.base.name="crashvb/base:22.04-202302172016" \
+	org.opencontainers.image.base.digest="sha256:502350d90a33aea5fe94f0c43ff1d17a1f581d75abba3addcdc7dfa735e8c870" \
+	org.opencontainers.image.base.name="crashvb/base:22.04-202302172125" \
 	org.opencontainers.image.created="${org_opencontainers_image_created}" \
 	org.opencontainers.image.description="Base image containing supervisord." \
 	org.opencontainers.image.licenses="Apache-2.0" \
