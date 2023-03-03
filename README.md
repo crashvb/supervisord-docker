@@ -13,14 +13,6 @@ This docker image contains [supervisord](https://supervisord.org/).
 
 None.
 
-## Healthcheck Scripts
-
-### supervisord
-
-The embedded healthcheck script is located at `/etc/healthcheck.d/supervisord` and performs the following actions:
-
-1. Verifies that the supervisord control socket is responds to requests.
-
 ## Commonly Used Commands
 
 ### Reload supervisord configuration
